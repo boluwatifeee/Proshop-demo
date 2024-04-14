@@ -1,2 +1,2 @@
-#ProShop
-an e-commerce platform built with MERN stack
+# ProShop
+A e-commerce platform built with MERN stack
