@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header>
-        <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect>
+        <Navbar bg="myColor"variant="dark" expand="lg" collapseOnSelect>
             <Container>
                 <LinkContainer to='/'>
                     <Navbar.Brand>
@@ -44,7 +44,7 @@ const Header = () => {
                         <SearchBox/>
                         <LinkContainer to='/cart'>
                             <Nav.Link><FaShoppingCart /> Cart {cartItems.length > 0 && (
-                                <Badge pill bg='success' style={{marginLeft: '5px'}}>
+                                <Badge pill bg='warning' style={{marginLeft: '5px'}}>
                                     {cartItems.reduce((a, c) => a + c.qty, 0 )}
                                 </Badge>
                             )}</Nav.Link>

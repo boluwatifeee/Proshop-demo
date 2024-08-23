@@ -1,5 +1,6 @@
 main {
   min-height: 80vh;
+  background-color: rgba(229, 227, 241, 0.8);
 }
 
 .rating span {
@@ -51,3 +52,9 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+.bg-myColor {
+  /* background-image: linear-gradient(to right,#823604,#f96400 ) */
+ background-color:  rgba(60, 28, 218, 0.8);
+}
+
