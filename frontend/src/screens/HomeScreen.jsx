@@ -12,8 +12,9 @@ const HomeScreen = () => {
     const { data , isLoading, error} = useGetProductsQuery({ keyword,  pageNumber });
 
     return (
-        <>
+        <div className='homescreen'>
         { !keyword ? <ProductCarousel/> : <Link to='/' className='btn btn-light mb-4'>Go Back</Link>}
+         <h1 className=''>Latest Products</h1>
         { isLoading ? (
             <Loader/>
          ) : error ? (
@@ -22,7 +23,6 @@ const HomeScreen = () => {
            </Message>
          ) : (
         <>
-         <h1>Latest Products</h1>
         <Row>
             {data.products.map((product) => (
                 <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
@@ -33,7 +33,7 @@ const HomeScreen = () => {
         <Paginate pages={data.pages} page={data.page} keyword={keyword ? keyword : ''} />
         </>)}
        
-        </>
+        </div>
     )
 }
 
