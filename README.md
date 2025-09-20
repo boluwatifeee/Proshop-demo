@@ -2,9 +2,9 @@
 
 ![Proshop Demo](https://img.shields.io/badge/Status-Live%20Demo-brightgreen)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB%20Atlas-green)
-![Deployment](https://img.shields.io/badge/Deployed%20on-AWS%20EC2-orange)
 
-**Live Demo:** [http://13.221.163.193](http://13.221.163.193)
+
+**Live Demo:** [https://proshop-wgrf.onrender.com/](https://proshop-wgrf.onrender.com/d)
 
 A full-stack e-commerce platform built with the MERN stack, featuring user authentication, product management, shopping cart, and payment processing.
 
@@ -15,7 +15,6 @@ A full-stack e-commerce platform built with the MERN stack, featuring user authe
 - **Database:** MongoDB Atlas
 - **Authentication:** JWT (JSON Web Tokens)
 - **Payment Processing:** PayPal API
-- **Deployment:** AWS EC2, Nginx, PM2
 
 ## ✨ Features
 
@@ -26,26 +25,13 @@ A full-stack e-commerce platform built with the MERN stack, featuring user authe
 - 📱 Fully responsive design
 - ⭐ Product reviews and ratings
 - 📊 Admin dashboard for product/order management
-- 🚀 Production-ready deployment
 
-## 🚀 Live Deployment
 
-This application is successfully deployed on AWS EC2 with production-grade configuration:
-
-### **Infrastructure:**
-- **Server:** AWS EC2 (Amazon Linux 2023)
-- **Web Server:** Nginx (reverse proxy)
-- **Process Manager:** PM2 (auto-restart, monitoring)
-- **Database:** MongoDB Atlas (cloud)
-- **SSL:** Ready for HTTPS configuration
 
 ### **Deployment Features:**
 - ✅ Production environment variables
 - ✅ Optimized React build
 - ✅ Database connection to MongoDB Atlas
-- ✅ Process monitoring with PM2
-- ✅ Nginx reverse proxy configuration
-- ✅ Auto-restart on server reboot
 
 
 ## 🔐 Security Features
@@ -66,16 +52,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 🎯 Deployment Achievement
 
-This project demonstrates full-stack development and production deployment skills including:
+This project demonstrates full-stack development skills including:
 
-- ✅ **Cloud Infrastructure:** AWS EC2 setup and configuration
-- ✅ **Server Administration:** Linux command line, SSH management
-- ✅ **Web Server Configuration:** Nginx reverse proxy setup
-- ✅ **Process Management:** PM2 for application monitoring
 - ✅ **Database Integration:** MongoDB Atlas cloud connection
 - ✅ **Environment Management:** Production vs development configurations
 - ✅ **Security Implementation:** JWT authentication, environment variables protection
 - ✅ **Performance Optimization:** Production build optimization, static file serving
 
-**Live Application:** Successfully deployed and accessible at [http://13.221.163.193](http://13.221.163.193)
+**Live Application:** Successfully deployed and accessible at [https://proshop-wgrf.onrender.com/](https://proshop-wgrf.onrender.com/)
 
