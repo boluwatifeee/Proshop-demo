@@ -4,6 +4,12 @@
   "description": "\"eCommerce platform built with MERN stack\"",
   "type": "module",
   "main": "server.js",
+  "workspaces": [
+    "v1/backend",
+    "v1/frontend",
+    "v2/backend",
+    "v2/frontend"
+  ],
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
@@ -11,7 +17,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder.js",
     "data:destroy": "node backend/seeder.js -d",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "dev:v2": "concurrently \"npm run dev --workspace=v2/backend\" \"npm run dev --workspace=v2/frontend\"",
+    "build:v2": "npm run build --workspace=v2/backend && npm run build --workspace=v2/frontend"
   },
   "author": "Boluwatife",
   "license": "MIT",
